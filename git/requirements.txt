@@ -1,0 +1,8 @@
+streamlit
+transformers
+sentencepiece
+keybert
+scikit-learn
+nltk
+pymupdf
+python-docx
