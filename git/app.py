@@ -8,7 +8,7 @@ nltk.download('stopwords')
 
 
 # Load models
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)
 kw_model = KeyBERT()
 
 # Extract text
